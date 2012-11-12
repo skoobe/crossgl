@@ -1,0 +1,6 @@
+android/bin/
+android/gen/
+android/libs/
+android/obj/
+ios/crossgl.xcodeproj/project.xcworkspace/xcuserdata/
+ios/crossgl.xcodeproj/xcuserdata/

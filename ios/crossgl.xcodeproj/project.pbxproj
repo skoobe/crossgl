@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB52DD4164D29DD0090FB33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB52DD3164D29DD0090FB33 /* UIKit.framework */; };
+		DDB52DD6164D29DD0090FB33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB52DD5164D29DD0090FB33 /* Foundation.framework */; };
+		DDB52DD8164D29DD0090FB33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB52DD7164D29DD0090FB33 /* CoreGraphics.framework */; };
+		DDB52DDE164D29DD0090FB33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDB52DDC164D29DD0090FB33 /* InfoPlist.strings */; };
+		DDB52DE0164D29DD0090FB33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB52DDF164D29DD0090FB33 /* main.m */; };
+		DDB52DE4164D29DD0090FB33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB52DE3164D29DD0090FB33 /* AppDelegate.m */; };
+		DDB52DE6164D29DD0090FB33 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB52DE5164D29DD0090FB33 /* Default.png */; };
+		DDB52DE8164D29DD0090FB33 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB52DE7164D29DD0090FB33 /* Default@2x.png */; };
+		DDB52DEA164D29DD0090FB33 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDB52DE9164D29DD0090FB33 /* Default-568h@2x.png */; };
+		DDB52DED164D29DD0090FB33 /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB52DEC164D29DD0090FB33 /* GLViewController.m */; };
+		DDB52DFD164D2AB60090FB33 /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB52DFC164D2AB60090FB33 /* GLView.m */; };
+		DDB52E05164D2E0E0090FB33 /* gl_cube.c in Sources */ = {isa = PBXBuildFile; fileRef = DDB52E04164D2E0E0090FB33 /* gl_cube.c */; };
+		DDB52E0C164D33580090FB33 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB52E0B164D33580090FB33 /* OpenGLES.framework */; };
+		DDB52E4C164D3D7A0090FB33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB52E4A164D3D680090FB33 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDB52DCF164D29DD0090FB33 /* crossgl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crossgl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB52DD3164D29DD0090FB33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDB52DD5164D29DD0090FB33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDB52DD7164D29DD0090FB33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDB52DDB164D29DD0090FB33 /* crossgl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "crossgl-Info.plist"; sourceTree = "<group>"; };
+		DDB52DDD164D29DD0090FB33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDB52DDF164D29DD0090FB33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDB52DE1164D29DD0090FB33 /* crossgl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crossgl-Prefix.pch"; sourceTree = "<group>"; };
+		DDB52DE2164D29DD0090FB33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDB52DE3164D29DD0090FB33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDB52DE5164D29DD0090FB33 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DDB52DE7164D29DD0090FB33 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DDB52DE9164D29DD0090FB33 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DDB52DEB164D29DD0090FB33 /* GLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLViewController.h; sourceTree = "<group>"; };
+		DDB52DEC164D29DD0090FB33 /* GLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLViewController.m; sourceTree = "<group>"; };
+		DDB52DFB164D2AB60090FB33 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		DDB52DFC164D2AB60090FB33 /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
+		DDB52E04164D2E0E0090FB33 /* gl_cube.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gl_cube.c; sourceTree = "<group>"; };
+		DDB52E06164D2E240090FB33 /* gl_cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gl_cube.h; sourceTree = "<group>"; };
+		DDB52E0B164D33580090FB33 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DDB52E4A164D3D680090FB33 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB52DCC164D29DD0090FB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB52E0C164D33580090FB33 /* OpenGLES.framework in Frameworks */,
+				DDB52DD4164D29DD0090FB33 /* UIKit.framework in Frameworks */,
+				DDB52DD6164D29DD0090FB33 /* Foundation.framework in Frameworks */,
+				DDB52E4C164D3D7A0090FB33 /* QuartzCore.framework in Frameworks */,
+				DDB52DD8164D29DD0090FB33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB52DC4164D29DD0090FB33 = {
+			isa = PBXGroup;
+			children = (
+				DDB52E02164D2DF50090FB33 /* common */,
+				DDB52DD9164D29DD0090FB33 /* crossgl */,
+				DDB52DD2164D29DD0090FB33 /* Frameworks */,
+				DDB52DD0164D29DD0090FB33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB52DD0164D29DD0090FB33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB52DCF164D29DD0090FB33 /* crossgl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB52DD2164D29DD0090FB33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDB52E4A164D3D680090FB33 /* QuartzCore.framework */,
+				DDB52E0B164D33580090FB33 /* OpenGLES.framework */,
+				DDB52DD3164D29DD0090FB33 /* UIKit.framework */,
+				DDB52DD5164D29DD0090FB33 /* Foundation.framework */,
+				DDB52DD7164D29DD0090FB33 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDB52DD9164D29DD0090FB33 /* crossgl */ = {
+			isa = PBXGroup;
+			children = (
+				DDB52DE2164D29DD0090FB33 /* AppDelegate.h */,
+				DDB52DE3164D29DD0090FB33 /* AppDelegate.m */,
+				DDB52DFB164D2AB60090FB33 /* GLView.h */,
+				DDB52DFC164D2AB60090FB33 /* GLView.m */,
+				DDB52DEB164D29DD0090FB33 /* GLViewController.h */,
+				DDB52DEC164D29DD0090FB33 /* GLViewController.m */,
+				DDB52DDA164D29DD0090FB33 /* Supporting Files */,
+			);
+			path = crossgl;
+			sourceTree = "<group>";
+		};
+		DDB52DDA164D29DD0090FB33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDB52DDB164D29DD0090FB33 /* crossgl-Info.plist */,
+				DDB52DDC164D29DD0090FB33 /* InfoPlist.strings */,
+				DDB52DDF164D29DD0090FB33 /* main.m */,
+				DDB52DE1164D29DD0090FB33 /* crossgl-Prefix.pch */,
+				DDB52DE5164D29DD0090FB33 /* Default.png */,
+				DDB52DE7164D29DD0090FB33 /* Default@2x.png */,
+				DDB52DE9164D29DD0090FB33 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDB52E02164D2DF50090FB33 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				DDB52E06164D2E240090FB33 /* gl_cube.h */,
+				DDB52E04164D2E0E0090FB33 /* gl_cube.c */,
+			);
+			name = common;
+			path = ../common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB52DCE164D29DD0090FB33 /* crossgl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB52DF6164D29DD0090FB33 /* Build configuration list for PBXNativeTarget "crossgl" */;
+			buildPhases = (
+				DDB52DCB164D29DD0090FB33 /* Sources */,
+				DDB52DCC164D29DD0090FB33 /* Frameworks */,
+				DDB52DCD164D29DD0090FB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = crossgl;
+			productName = crossgl;
+			productReference = DDB52DCF164D29DD0090FB33 /* crossgl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB52DC6164D29DD0090FB33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Skoobe GmbH";
+			};
+			buildConfigurationList = DDB52DC9164D29DD0090FB33 /* Build configuration list for PBXProject "crossgl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDB52DC4164D29DD0090FB33;
+			productRefGroup = DDB52DD0164D29DD0090FB33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB52DCE164D29DD0090FB33 /* crossgl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB52DCD164D29DD0090FB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB52DDE164D29DD0090FB33 /* InfoPlist.strings in Resources */,
+				DDB52DE6164D29DD0090FB33 /* Default.png in Resources */,
+				DDB52DE8164D29DD0090FB33 /* Default@2x.png in Resources */,
+				DDB52DEA164D29DD0090FB33 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB52DCB164D29DD0090FB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB52DE0164D29DD0090FB33 /* main.m in Sources */,
+				DDB52DE4164D29DD0090FB33 /* AppDelegate.m in Sources */,
+				DDB52DED164D29DD0090FB33 /* GLViewController.m in Sources */,
+				DDB52DFD164D2AB60090FB33 /* GLView.m in Sources */,
+				DDB52E05164D2E0E0090FB33 /* gl_cube.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDB52DDC164D29DD0090FB33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB52DDD164D29DD0090FB33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB52DF4164D29DD0090FB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB52DF5164D29DD0090FB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB52DF7164D29DD0090FB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "crossgl/crossgl-Prefix.pch";
+				INFOPLIST_FILE = "crossgl/crossgl-Info.plist";
+				OTHER_CFLAGS = "-DIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDB52DF8164D29DD0090FB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "crossgl/crossgl-Prefix.pch";
+				INFOPLIST_FILE = "crossgl/crossgl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB52DC9164D29DD0090FB33 /* Build configuration list for PBXProject "crossgl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB52DF4164D29DD0090FB33 /* Debug */,
+				DDB52DF5164D29DD0090FB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB52DF6164D29DD0090FB33 /* Build configuration list for PBXNativeTarget "crossgl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB52DF7164D29DD0090FB33 /* Debug */,
+				DDB52DF8164D29DD0090FB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB52DC6164D29DD0090FB33 /* Project object */;
+}
